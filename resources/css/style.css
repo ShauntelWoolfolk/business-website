@@ -1,0 +1,140 @@
+
+html {
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    padding: 10px 10px 10px 5px;
+    line-height: 35px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #569987;
+}
+
+.headbanner {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-image: url(../images/bannerone.jpg) ;
+    margin-bottom: 10px;
+    font-size: large;
+    letter-spacing: 2px;
+    padding-bottom: 100px;
+}
+img {
+    width: 340px;
+    height: 340px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+    padding: 50px 50px;
+    
+}
+
+
+/*  Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    padding: 40px 40px;
+}
+nav a {
+    color: #642714;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #E6BBAE;
+}
+
+
+
+
+/* About Us Section */
+
+.aboutus {
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 40px 40px;
+}
+
+.employees img {
+    width: 200px;
+    height: 200px;
+    border: 5px #569987 solid;
+    border-radius: 50%;
+}
+
+.flex-container .employees {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* Footer */
+
+
+footer {
+    text-align: center;
+    background-color:#E6BBAE;
+    padding: 20px 20px;
+    border: #569987 solid;
+    
+}
+
+footer img {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+
+/*
+
+@media (max-width: 800px) {
+    
+    html, 
+    body, 
+    .flex-container,
+    .aboutus, 
+    footer {
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex-shrink: 2;
+    }
+    
+  }
+
+
+
